@@ -81,7 +81,7 @@ h2 > span {
     position: relative;
     max-height: 253.84px;
     min-height: 253.84px;
-
+text-align: center;
     margin: 10px auto;
     
 
@@ -95,6 +95,9 @@ h2 > span {
 
     max-width: 170px;
 
+}
+.movie-item .movie h3 {
+    width: 100%;
 }
 .movie {
     opacity: 0.7;
