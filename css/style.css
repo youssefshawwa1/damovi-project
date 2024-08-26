@@ -1,0 +1,189 @@
+
+
+/* Global 
+---------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #192026;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+/* Section 1
+---------------------------------- */
+section {
+    padding: 0 5%;
+    margin: 2% auto;
+
+}
+.exploreContainer {
+    background-image: url("/images/cover_batman3.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+    position: relative;
+    margin: 2%;
+    border-radius: 50px;
+}
+.explore-content{
+    position: absolute;
+    bottom: 0;
+    margin: 0 3% 3% 3%;
+    width: 50%;
+}
+.explore-content > h3 {
+    font-size: 3rem;
+}
+
+
+/* movies sections
+-------------------------------------- */
+h2 {
+    font-size: 2rem;
+}
+h2 > span {
+    color: #db1414;
+}
+.newReleasesContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.movie-item {
+    max-width: 15%;
+}
+.movie-item > h3 {
+    text-align: center;
+}
+.movie-detail {
+    display: none;
+}
+.movie {
+    width: 170px;
+
+    position: relative;
+    max-height: 253.84px;
+    min-height: 253.84px;
+
+    margin: 10px;
+
+}
+.movie > h3 {
+    
+    position: absolute;
+    bottom: 0;
+    margin: 0 3% 3% 3%;
+    text-align: center;
+    width: 100%;
+
+}
+.movie {
+    opacity: 0.7;
+    border-radius: 20px;
+}
+.movie1{
+    background: url("/images/items/item1.jpg") no-repeat center/cover;
+}
+.movie2{
+    background: url("/images/items/item2.jpg") no-repeat center/cover;
+}
+.movie3{
+    background: url("/images/items/item3.jpg") no-repeat center/cover;
+}
+.movie4{
+    background: url("/images/items/item4.jpeg") no-repeat center/cover;
+}
+.movie5{
+    background: url("/images/items/item5.jpg") no-repeat center/cover;
+}
+.movie6{
+    background: url("/images/items/item6.jpg") no-repeat center/cover;
+} 
+.movie7{
+    background: url("/images/items/American\ History\ X\ 1998.jpg") no-repeat center/cover;
+}
+.movie8{
+    background: url("/images/items/Dune\ Part\ Two\ 2024.jpg") no-repeat center/cover;
+}
+.movie9{
+    background: url("/images/items/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg") no-repeat center/cover;
+}
+.movie10{
+    background: url("/images/items/Lady\ Bird\ 2017.jpg") no-repeat center/cover;
+}
+.movie11{
+    background: url("/images/items/Looper\ 2012.jpg") no-repeat center/cover;
+} 
+.movie12{
+    background: url("/images/items/The\ Equalizer\ 3\ 2023.jpg") no-repeat center/cover;
+}
+.movie h3 {
+    text-transform: uppercase;
+    font-style: bold;
+    text-shadow: 2px 2px 2px #192026 ;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    
+}
+.movie-item > h3 {
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px #192026 ;
+    font-size: 1rem;
+}
+
+
+/* Footer
+------------------------------ */
+
+footer {
+    margin: 0;
+    background-color: #db1414;
+    min-height: 15vh;
+    font-size: 1rem;
+}
+.footer-rights {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+.footer-item {
+    margin: 0 5%;
+}
+.footer-link a {
+    text-decoration: none;
+    color: white;
+}
+.footer-link {
+    margin: 10% 0; 
+}
+.footer-item h4 {
+    font-style: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
