@@ -1,13 +1,15 @@
-
-
 /* Global 
 ---------------------------------*/
 html {
     box-sizing: border-box;
 }
-*, *::after, *::before {
+
+*,
+*::after,
+*::before {
     box-sizing: inherit;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -16,10 +18,15 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-
+    /* hide scroll bar */
+    -ms-overflow-style: none;
+    /* Hides scrollbar in IE and Edge */
 }
 
-
+body::-webkit-scrollbar {
+    display: none;
+    /* Hides scrollbar in Chrome, Safari, and Opera */
+}
 
 
 
@@ -31,6 +38,7 @@ section {
     margin: 2% auto;
 
 }
+
 .exploreContainer {
     background-image: url("/images/cover_batman3.jpg");
     width: 100%;
@@ -42,13 +50,15 @@ section {
     margin: 2%;
     border-radius: 50px;
 }
-.explore-content{
+
+.explore-content {
     position: absolute;
     bottom: 0;
     margin: 0 3% 3% 3%;
     width: 50%;
 }
-.explore-content > h3 {
+
+.explore-content>h3 {
     font-size: 3rem;
 }
 
@@ -58,35 +68,42 @@ section {
 h2 {
     font-size: 2rem;
 }
-h2 > span {
+
+h2>span {
     color: #db1414;
 }
+
 .newReleasesContainer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
 .movie-item {
     max-width: 15%;
 }
-.movie-item > h3 {
+
+.movie-item>h3 {
     text-align: center;
 }
+
 .movie-detail {
     display: none;
 }
+
 .movie {
     width: 170px;
 
     position: relative;
     max-height: 253.84px;
     min-height: 253.84px;
-text-align: center;
+    text-align: center;
     margin: 10px auto;
-    
+
 
 }
-.movie > h3 {
+
+.movie>h3 {
     position: absolute;
     bottom: 0;
     margin: 0 3% 3% 3%;
@@ -94,62 +111,78 @@ text-align: center;
     max-width: 170px;
 
 }
+
 .movie-item .movie h3 {
     width: 100%;
 }
+
 .movie {
     opacity: 0.7;
     border-radius: 20px;
 }
-.movie1{
+
+.movie1 {
     background: url("/images/items/item1.jpg") no-repeat center/cover;
 }
-.movie2{
+
+.movie2 {
     background: url("/images/items/item2.jpg") no-repeat center/cover;
 }
-.movie3{
+
+.movie3 {
     background: url("/images/items/item3.jpg") no-repeat center/cover;
 }
-.movie4{
+
+.movie4 {
     background: url("/images/items/item4.jpeg") no-repeat center/cover;
 }
-.movie5{
+
+.movie5 {
     background: url("/images/items/item5.jpg") no-repeat center/cover;
 }
-.movie6{
+
+.movie6 {
     background: url("/images/items/item6.jpg") no-repeat center/cover;
-} 
-.movie7{
+}
+
+.movie7 {
     background: url("/images/items/American\ History\ X\ 1998.jpg") no-repeat center/cover;
 }
-.movie8{
+
+.movie8 {
     background: url("/images/items/Dune\ Part\ Two\ 2024.jpg") no-repeat center/cover;
 }
-.movie9{
+
+.movie9 {
     background: url("/images/items/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg") no-repeat center/cover;
 }
-.movie10{
+
+.movie10 {
     background: url("/images/items/Lady\ Bird\ 2017.jpg") no-repeat center/cover;
 }
-.movie11{
+
+.movie11 {
     background: url("/images/items/Looper\ 2012.jpg") no-repeat center/cover;
-} 
-.movie12{
+}
+
+.movie12 {
     background: url("/images/items/The\ Equalizer\ 3\ 2023.jpg") no-repeat center/cover;
 }
+
 .movie h3 {
     text-transform: uppercase;
     font-style: bold;
-    text-shadow: 2px 2px 2px #192026 ;
+    text-shadow: 2px 2px 2px #192026;
     color: rgb(255, 255, 255);
     font-size: 1rem;
-    
+
 }
-.movie-item > h3 {
+
+.movie-item>h3 {
     width: 100%;
     text-align: center;
     color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 2px #192026 ;
+    text-shadow: 2px 2px 2px #192026;
     font-size: 1rem;
 }
 
@@ -163,26 +196,31 @@ footer {
     min-height: 15vh;
     font-size: 1rem;
 }
+
 .footer-rights {
     width: 100%;
     text-align: center;
-    
+
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
 }
+
 .footer-item {
     margin: 0 5%;
 }
+
 .footer-link a {
     text-decoration: none;
     color: white;
 }
+
 .footer-link {
-    margin: 10% 0; 
+    margin: 10% 0;
 }
+
 .footer-item h4 {
     font-style: bold;
     font-size: 1.2rem;
@@ -190,3 +228,43 @@ footer {
 }
 
 
+
+
+/* 
+----------movies page--------- */
+.movie-category1-container span {
+    font-size: 2rem;
+    color: #db1414;
+}
+
+.category-list-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+/*
+-------------- select bar in movies page */
+.select-movie-dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 100px 8px 18px;
+    gap: 10px;
+    width: 450px;
+    height: 50px;
+    left: 70px;
+    top: 124px;
+
+    background: #374151;
+    border-radius: 37px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}

@@ -35,18 +35,52 @@
 
 
     <main>
-        <section class="movie-content-section">
-            <div class="movie-content-container">
-                <h1>One Piece - Episode 1018</h1>
-                <div class="movie-content-video">
+        <!-- we do the 2 sections in div inorder to display them flex -->
+        <div class="video-popularlist-container">
+            <section class="movie-content-section">
+                <div class="movie-content-container">
+                    <h1>One Piece - Episode 1018</h1>
                     <div class="movie-content-video">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/k9TscDD0Yfo?si=mynQc2GtbTe1x5rk"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="movie-content-video">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/k9TscDD0Yfo?si=mynQc2GtbTe1x5rk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+            </section>
+
+            <section class="popular-list-section">
+                <div class="popular-list-container">
+                    <h1>Popular Animes</h1>
+
+                    <div class="popular-list">
+                        <div class="first-grp-popular">
+                            <div class="popular-list-item">
+                                <img src="/images/items/item1.jpg" alt="">
+                            </div>
+                            <div class="popular-list-item">
+                                <img src="/images/items/item2.jpg" alt="">
+                            </div>
+                            <div class="popular-list-item">
+                                <img src="/images/items/item3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="second-grp-popular">
+                            <div class="popular-list-item">
+                                <img src="/images/items/item9.jpg" alt="">
+                            </div>
+                            <div class="popular-list-item">
+                                <img src="/images/items/item5.jpg" alt="">
+                            </div>
+                            <div class="popular-list-item">
+                                <img src="/images/items/item6.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
-        </section>
+                </div>
+            </section>
+        </div>
 
         <section class="movie-details-section">
             <div class="movie-details-container">
@@ -80,42 +114,19 @@
                         <h2>Genres :</h2>
                         <p>Action, Adventure, Fantasy</p>
                     </div>
+
                 </div>
 
-                <div class="movie-sypnosis">
-                    <h2>Sypnosis</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci a unde sint voluptatum dolor
-                        ratione doloribus. Asperiores, quo optio architecto blanditiis quibusdam, eius eaque sunt cum
-                        nulla suscipit labore voluptatum?</p>
-                </div>
             </div>
         </section>
 
-        <section class="popular-list-section">
-            <div class="popular-list-container">
-                <h1>Popular Animes</h1>
-                <div class="popular-list">
-                    <div class="popular-list-item">
-                        <img src="/images/items/item1.jpg" alt="">
-                    </div>
-                    <div class="popular-list-item">
-                        <img src="/images/items/item2.jpg" alt="">
-                    </div>
-                    <div class="popular-list-item">
-                        <img src="/images/items/item3.jpg" alt="">
-                    </div>
-                    <div class="popular-list-item">
-                        <img src="/images/items/item4.jpg" alt="">
-                    </div>
-                    <div class="popular-list-item">
-                        <img src="/images/items/item5.jpg" alt="">
-                    </div>
-                    <div class="popular-list-item">
-                        <img src="/images/items/item6.jpg" alt="">
-                    </div>
-                </div>
-        </section>
 
+        <div class="movie-sypnosis">
+            <h2>Sypnosis</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci a unde sint voluptatum dolor ratione
+                doloribus. Asperiores, quo optio architecto blanditiis quibusdam, eius eaque sunt cum nulla suscipit
+                labore voluptatum?</p>
+        </div>
     </main>
     <footer>
         <div class="footer-container">
