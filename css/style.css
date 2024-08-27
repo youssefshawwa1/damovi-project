@@ -80,7 +80,7 @@ h2>span {
 }
 
 .movie-item {
-    max-width: 15%;
+    width: 100%;
 }
 
 .movie-item>h3 {
