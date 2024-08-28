@@ -1,13 +1,13 @@
 /* Global 
 ---------------------------------*/
 html {
-    box-sizing: border-box;
+    box-sizing: border-box!important;
 }
 
 *,
 *::after,
 *::before {
-    box-sizing: inherit;
+    box-sizing: inherit!important;
 }
 
 body {
@@ -36,7 +36,9 @@ body::-webkit-scrollbar {
 section {
     padding: 0 5%;
     margin: 2% auto;
+    
     max-width: 1300px;
+    
 
 }
 
@@ -55,7 +57,7 @@ section {
 .explore-content {
     position: absolute;
     bottom: 0;
-    margin: 0 3% 3% 3%;
+    padding: 3%;
     width: 50%;
 }
 
@@ -82,6 +84,8 @@ h2>span {
 
 .movie-item {
     width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .movie-item>h3 {
@@ -90,6 +94,10 @@ h2>span {
 
 .movie-detail {
     display: none;
+}
+.movie-container {
+    max-width: 170px;
+    margin: 10px;
 }
 
 .movie {
@@ -117,57 +125,82 @@ h2>span {
     width: 100%;
 }
 
-.movie {
-    opacity: 0.7;
-    border-radius: 20px;
-}
 
 .movie1 {
-    background: url("/images/items/item1.jpg") no-repeat center/cover;
+    background: url("/images/movies/American\ History\ X\ 1998.jpg");
 }
 
 .movie2 {
-    background: url("/images/items/item2.jpg") no-repeat center/cover;
+    background: url("/images/movies/Dune\ Part\ Two\ 2024.jpg");
 }
 
 .movie3 {
-    background: url("/images/items/item3.jpg") no-repeat center/cover;
+    background: url("/images/movies/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg");
 }
 
 .movie4 {
-    background: url("/images/items/item4.jpeg") no-repeat center/cover;
+    background: url("/images/movies/Lady\ Bird\ 2017.jpg");
 }
 
 .movie5 {
-    background: url("/images/items/item5.jpg") no-repeat center/cover;
+    background: url("/images/movies/Looper\ 2012.jpg");
 }
 
 .movie6 {
-    background: url("/images/items/item6.jpg") no-repeat center/cover;
+    background: url("/images/movies/The\ Equalizer\ 3\ 2023.jpg");
 }
-
 .movie7 {
-    background: url("/images/items/American\ History\ X\ 1998.jpg") no-repeat center/cover;
+    background: url("/images/series/Fargo.jpg");
 }
 
 .movie8 {
-    background: url("/images/items/Dune\ Part\ Two\ 2024.jpg") no-repeat center/cover;
+    background: url("/images/series/Mr\ Robot.jpg");
 }
 
 .movie9 {
-    background: url("/images/items/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg") no-repeat center/cover;
+    background: url("/images/series/The\ Boys.jpg");
 }
 
 .movie10 {
-    background: url("/images/items/Lady\ Bird\ 2017.jpg") no-repeat center/cover;
+    background: url("/images/series/Masters\ of\ the\ Air.jpg");
 }
 
 .movie11 {
-    background: url("/images/items/Looper\ 2012.jpg") no-repeat center/cover;
+    background: url("/images/series/Dexter.jpg");
 }
 
 .movie12 {
-    background: url("/images/items/The\ Equalizer\ 3\ 2023.jpg") no-repeat center/cover;
+    background: url("/images/series/Lost.jpg");
+}
+.movie13 {
+    background: url("/images/animies/item1.jpg");
+}
+
+.movie14 {
+    background: url("/images/animies/item2.jpg") ;
+}
+
+.movie15 {
+    background: url("/images/animies/item3.jpg");
+}
+
+.movie16 {
+    background: url("/images/animies/item4.jpeg");
+}
+
+.movie17 {
+    background: url("/images/animies/item5.jpg");
+}
+
+.movie18 {
+    background: url("/images/animies/item6.jpg");
+}
+.movie {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    border-radius: 20px;
 }
 
 .movie h3 {
@@ -203,10 +236,14 @@ footer {
     text-align: center;
 
 }
+.footer-rights p {
+    margin: 0;
+}
 
 .footer-container {
     display: flex;
     justify-content: center;
+    padding-top: 4%;
 }
 
 .footer-item {
@@ -219,12 +256,12 @@ footer {
 }
 
 .footer-link {
-    margin: 10% 0;
+    margin: 1rem 0;
 }
 
 .footer-item h4 {
     font-style: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
@@ -268,4 +305,82 @@ footer {
 
 .hidden {
     display: none;
+}
+/* Navbar
+---------------------------------------- */
+.navbar-brand  h2{
+    color: #db1414;
+    text-shadow: 2px 2px 2px #db1414;
+    font-weight: 600!important;
+}
+.nav-link {
+    color: #e4e4e4!important;
+    opacity: .8;
+}
+.navbar-toggler {
+    color: #e4e4e4;
+    border: #e4e4e4 1px solid;
+    opacity: .8;
+}
+.form-control {
+    background-color: #374151;
+    border-radius: 50px;
+    border: none;
+    color: #e4e4e4!important;
+}
+.form-control:focus{
+    border: 2px solid #e4e4e4;
+    background-color: #374151;
+    transition:  .5s;
+}  
+.form-control::placeholder{
+    color: #e4e4e4;
+    opacity: .5;
+    
+}
+.form-control:hover {
+    border:2px solid #e4e4e4;
+    
+}
+.nav-link {
+    text-align: center;
+    
+
+}
+.nav-item {
+    border-radius: 25px;
+}
+.nav-item:hover {
+    background-color: #374151;
+
+    transition:  .5s;
+
+}
+
+
+
+/* Media Querys
+----------- ------------------------ */
+
+/* for small screens
+------------------------------------ */
+
+@media screen and (width < 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-item {
+        margin-top: 1rem;
+    }
+    .explore-content {
+        width: 100%;
+    }
+    .explore-content {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .explore-content p {
+        font-size: 0.8rem;
+    }
 }
