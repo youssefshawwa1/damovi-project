@@ -93,7 +93,18 @@ h2>span {
 }
 
 .movie-detail {
-    display: none;
+    visibility: hidden;
+    top: 99px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.movie-detail a{
+    overflow: hidden;
+    text-wrap: nowrap;
+    width: 0;
+    height: 0;
+    font-size: 0.1rem;
 }
 .movie-container {
     max-width: 170px;
@@ -125,127 +136,221 @@ h2>span {
     width: 100%;
 }
 
-
+/* Home page movies
+----------------------------------------- */
 .movie1 {
-    background: url("/images/movies/movieTurkish1.jpg");
+    background: url("/images/movies/American\ History\ X\ 1998.jpg");
 }
 
 .movie2 {
-    background: url("/images/movies/movieTurkish2.jpg");
+    background: url("/images/movies/Dune\ Part\ Two\ 2024.jpg");
 }
 
 .movie3 {
-    background: url("/images/movies/movieTurkish3.jpg");
+    background: url("/images/movies/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg");
 }
 
 .movie4 {
-    background: url("/images/movies/movieTurkish4.jpg");
+    background: url("/images/movies/Lady\ Bird\ 2017.jpg");
 }
 
 .movie5 {
-    background: url("/images/movies/actionMovie1.avif ");
+    background: url("/images/movies/Looper\ 2012.jpg ");
 }
 
 .movie6 {
-    background: url("/images/movies/actionMovie2.avif");
+    background: url("/images/movies/The\ Equalizer\ 3\ 2023.jpg");
 }
-.movie7 {
-    background: url("/images/movies/actionMovie3.avif");
+/* Home page series
+---------------------------------------- */
+.series1{
+    background: url("/images/series/Fargo.jpg");
+}
+.series2{
+    background: url("/images/series/Mr\ Robot.jpg");
+}
+.series3{
+    background: url("/images/series/The\ Boys.jpg");
+}
+.series4{
+    background: url("/images/series/Masters\ of\ the\ Air.jpg");
+}
+.series5{
+    background: url("/images/series/Dexter.jpg");
+}
+.series6{
+    background: url("/images/series/Lost.jpg");
+}
+/* Home page Animes
+---------------------------------------- */
+.anime1 {
+    background: url("/images/animies/anime1.jpeg");
+}
+.anime2 {
+    background: url("/images/animies/anime2.jpg");
+}
+.anime3 {
+    background: url("/images/animies/anime3.jpeg");
+}
+.anime4 {
+    background: url("/images/animies/anime4.jpeg");
+}
+.anime5 {
+    background: url("/images/animies/anime5.webp");
+}
+.anime6 {
+    background: url("/images/animies/anime6.webp");
+}
+/*Movies page Turkish Movies
+---------------------------------- */
+.t-movie1 {
+    background: url("/images/movies/movieTurkish1.jpg");
+}
+.t-movie2 {
+    background: url("/images/movies/movieTurkish2.jpg");
 }
 
-.movie8 {
+.t-movie3 {
+    background: url("/images/movies/movieTurkish3.jpg");
+}
+
+.t-movie4 {
+    background: url("/images/movies/movieTurkish4.jpg");
+}
+/* Movies page Action Movies 
+--------------------------------*/
+.a-movie1 {
+    background: url("/images/movies/actionMovie1.avif");
+}
+.a-movie2 {
+    background: url("/images/movies/actionMovie2.avif");
+}
+.a-movie3 {
+    background: url("/images/movies/actionMovie3.avif");
+}
+.a-movie4 {
     background: url("/images/movies/actionMovie4.jpeg");
 }
 
-.movie9 {
+
+
+/* Movies page Horror Movies
+---------------------------------- */
+.h-movie1 {
     background: url("/images/movies/horrorMovie1.jpg");
 }
-
-.movie10 {
+.h-movie2 {
     background: url("/images/movies/horrorMovie2.jpg");
 }
-
-.movie11 {
+.h-movie3 {
     background: url("/images/movies/horrorMovie3.webp");
 }
-
-.movie12 {
+.h-movie4 {
     background: url("/images/movies/horrorMovie4.jpg");
 }
-.movie13 {
+/* Series page Crime Series
+----------------------------------------- */
+.c-series1 {
+    background: url("/images/series/crimeSeries1.jpg");
+}
+.c-series2 {
+    background: url("/images/series/crimeSeries2.jpg");
+}
+.c-series3 {
+    background: url("/images/series/crimeSeries3.jpg");
+}
+.c-series4 {
+    background: url("/images/series/crimeSeries4.jpg");
+}
+.co-series1 {
+    background: url("/images/series/comedySeries1.jpg");
+}
+.co-series2 {
+    background: url("/images/series/comedySeries2.jpg");
+}
+.co-series3 {
+    background: url("/images/series/comedySeries3.jpg");
+}
+.co-series4 {
+    background: url("/images/series/comedySeries4.jpg");
+}
+.a-series1 {
+    background: url("/images/series/advantureSeries1.jpg");
+}
+.a-series2 {
+    background: url("/images/series/advantureSeries2.jpg");
+}
+.a-series3 {
+    background: url("/images/series/advantureSeries3.jpg");
+}
+.a-series4 {
+    background: url("/images/series/advantureSeries4.jpg");
+}
+/* Anime Page Top animes 
+-------------------------------------- */
+.t-anime1 {
     background: url("/images/animies/anime1.jpeg");
 }
-
-.movie14 {
-    background: url("/images/animies/anime2.jpg") ;
+.t-anime2 {
+    background: url("/images/animies/anime2.jpg");
 }
-
-.movie15 {
+.t-anime3 {
     background: url("/images/animies/anime3.jpeg");
 }
-
-.movie16 {
+.t-anime4 {
     background: url("/images/animies/anime4.jpeg");
 }
 
-.movie17 {
-    background: url("/images/animies/anime5.webp");
+/* Anime Page latest animes 
+-------------------------------------- */
+.l-anime1 {
+    background: url("/images/animies/Makeine.jpg");
+}
+.l-anime2 {
+    background: url("/images/animies/MAYONAKA\ PUNCH.jpg");
+}
+.l-anime3 {
+    background: url("/images/animies/Oshi\ no\ ko.jpg");
+}
+.l-anime4 {
+    background: url("/images/animies/Shoshimin.jpg");
 }
 
-.movie18 {
-    background: url("/images/animies/anime6.webp");
+/* Anime Page most popular animes 
+-------------------------------------- */
+.m-anime1 {
+    background: url("/images/animies/Attack\ on\ Titan.jpg");
 }
-.movie19{
-    background: url("/images/animies/anime7.webp");
+.m-anime2 {
+    background: url("/images/animies/Death\ Note.jpg");
 }
-.movie20 {
-    background: url("/images/animies/anime8.webp");
+.m-anime3 {
+    background: url("/images/animies/anime1.jpeg");
 }
-.movie21 {
-    background: url("/images/animies/anime9.jpeg");
-}
-.movie22 {
-    background: url("/images/animies/anime10.jpeg");
-}
-
-#anime-hover {
-    position: relative;
-    width: 170px;
-    z-index: 2;
-    transition: 0.5s;
-    
-    
+.m-anime4 {
+    background: url("/images/animies/anime3.jpeg");
 }
 
-#anime-hover:hover > #anime {
-    display: block;
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    text-align: center;
 
-}
-#anime-hover:hover{
 
-}
-#anime-hover > .movie13{
-    width: 100%;
-    
-}
+
 .movie {
-    transition: 0.5s;
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+
     border-radius: 20px;
     cursor: pointer;
 }
-.movie:hover{
+/* Movie hover */
+.movie-item:hover > .movie{
+
     border: 1px #e4e4e4 solid;
     box-shadow: 1px 2px 10px 5px #e4e4e4;
-    width: 175px;
-
+    width: 172px;
+    bottom: 20px;
+    transition: linear 0.3s;
 }
 
 .movie h3 {
@@ -331,6 +436,7 @@ footer {
 
 
 
+
 /*
 -------------- select bar in movies page */
 .select-movie-dropdown {
@@ -350,7 +456,7 @@ footer {
 }
 
 .hidden {
-    display: none;
+    visibility: hidden;
 }
 /* Navbar
 ---------------------------------------- */
@@ -441,33 +547,69 @@ h3:hover{
     cursor: pointer;
 }
 /* Initial styles for the button */
-.watchButton {
-    display: none;
-    position: absolute;
-    top: 50%; 
-    right: 37.5%; 
-    transform: translateY(-50%); 
+
+
+.movie-item {
+    position: relative;
+    
+}
+.watch-button {
     font-weight: 600; 
     font-size: 1rem; 
     color: white; 
     background-color: #db1414; 
-   border-radius: 20px;
+    border-radius: 20px;
     padding: 10px 20px; 
     cursor: pointer; 
     text-align: center; 
     border: none;
+    text-decoration: none;
+}
+
+.movie-item:hover > .movie-detail {
+    visibility: visible;
+
+
+
+}
+.movie-item:hover > .movie-detail a{
+width: 75%;
+height: 100%;
+font-size: 1rem;
+
+}
+.movie-item:hover > .movie-detail a{
+    transition: linear 0.3s;
+
+}
+.movie-detail a:hover{
+    box-shadow: 1px 1px 8px 2px #e4e4e4;
+}
+/* movie Shadow   */
+.movie::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgba(16, 32, 44), transparent);
+    height: 70%;
+    z-index: 0;
+    
 }
 
 
-.onePeace:hover + h3 + .watchButton {
-    display: block;
-}
 
 
-.watchButton:hover {
-   
-    font-weight: 600; 
-    font-size: 1rem; 
-    color: white; 
-    background-color: #c41212; 
+
+
+
+
+
+
+.movie-item  h3 {
+    z-index: 1;
+    margin-right: 0;
+    margin-left: 0;
 }
