@@ -78,7 +78,7 @@ h2>span {
 
 .newReleasesContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -277,10 +277,11 @@ footer {
 
 .category-list-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 60px;
     margin-right: 60px;
+
 }
 
 
