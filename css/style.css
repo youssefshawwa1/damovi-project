@@ -346,10 +346,12 @@ h2>span {
 /* Movie hover */
 .movie-item:hover > .movie{
 
-    border: 1px #e4e4e4 solid;
-    box-shadow: 1px 2px 10px 5px #e4e4e4;
-    width: 172px;
-    bottom: 20px;
+    /* border: 1px #e4e4e4 solid; */
+    box-shadow: 1px 2px 10px 5px #404a54;
+    /* width: 172px; */
+    /* bottom: 20px; */
+    opacity: 0.5;
+
     transition: linear 0.3s;
 }
 
@@ -613,3 +615,23 @@ font-size: 1rem;
     margin-right: 0;
     margin-left: 0;
 }
+
+
+
+
+
+
+
+
+/* Content page
+-------------------------------------------- */
+.content-section {
+display: flex;
+justify-content: space-evenly;
+}
+.content-section aside {
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+
