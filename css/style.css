@@ -43,7 +43,7 @@ section {
 }
 
 .exploreContainer {
-    background-image: url("/images/cover_batman3.jpg");
+    background-image: url("/damovie-project/images/cover_batman3.jpg");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,97 +139,97 @@ h2>span {
 /* Home page movies
 ----------------------------------------- */
 .movie1 {
-    background: url("/images/movies/American\ History\ X\ 1998.jpg");
+    background: url("/damovie-project/images/movies/American\ History\ X\ 1998.jpg");
 }
 
 .movie2 {
-    background: url("/images/movies/Dune\ Part\ Two\ 2024.jpg");
+    background: url("/damovie-project/images/movies/Dune\ Part\ Two\ 2024.jpg");
 }
 
 .movie3 {
-    background: url("/images/movies/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg");
+    background: url("/damovie-project/images/movies/Guardians\ of\ the\ Galaxy\ Vol.\ 3\ 2023.jpg");
 }
 
 .movie4 {
-    background: url("/images/movies/Lady\ Bird\ 2017.jpg");
+    background: url("/damovie-project/images/movies/Lady\ Bird\ 2017.jpg");
 }
 
 .movie5 {
-    background: url("/images/movies/Looper\ 2012.jpg ");
+    background: url("/damovie-project/images/movies/Looper\ 2012.jpg ");
 }
 
 .movie6 {
-    background: url("/images/movies/The\ Equalizer\ 3\ 2023.jpg");
+    background: url("/damovie-project/images/movies/The\ Equalizer\ 3\ 2023.jpg");
 }
 /* Home page series
 ---------------------------------------- */
 .series1{
-    background: url("/images/series/Fargo.jpg");
+    background: url("/damovie-project/images/series/Fargo.jpg");
 }
 .series2{
-    background: url("/images/series/Mr\ Robot.jpg");
+    background: url("/damovie-project/images/series/Mr\ Robot.jpg");
 }
 .series3{
-    background: url("/images/series/The\ Boys.jpg");
+    background: url("/damovie-project/images/series/The\ Boys.jpg");
 }
 .series4{
-    background: url("/images/series/Masters\ of\ the\ Air.jpg");
+    background: url("/damovie-project/images/series/Masters\ of\ the\ Air.jpg");
 }
 .series5{
-    background: url("/images/series/Dexter.jpg");
+    background: url("/damovie-project/images/series/Dexter.jpg");
 }
 .series6{
-    background: url("/images/series/Lost.jpg");
+    background: url("/damovie-project/images/series/Lost.jpg");
 }
 /* Home page Animes
 ---------------------------------------- */
 .anime1 {
-    background: url("/images/animies/anime1.jpeg");
+    background: url("/damovie-project/images/animies/anime1.jpeg");
 }
 .anime2 {
-    background: url("/images/animies/anime2.jpg");
+    background: url("/damovie-project/images/animies/anime2.jpg");
 }
 .anime3 {
-    background: url("/images/animies/anime3.jpeg");
+    background: url("/damovie-project/images/animies/anime3.jpeg");
 }
 .anime4 {
-    background: url("/images/animies/anime4.jpeg");
+    background: url("/damovie-project/images/animies/anime4.jpeg");
 }
 .anime5 {
-    background: url("/images/animies/anime5.webp");
+    background: url("/damovie-project/images/animies/anime5.webp");
 }
 .anime6 {
-    background: url("/images/animies/anime6.webp");
+    background: url("/damovie-project/images/animies/anime6.webp");
 }
 /*Movies page Turkish Movies
 ---------------------------------- */
 .t-movie1 {
-    background: url("/images/movies/movieTurkish1.jpg");
+    background: url("/damovie-project/images/movies/movieTurkish1.jpg");
 }
 .t-movie2 {
-    background: url("/images/movies/movieTurkish2.jpg");
+    background: url("/damovie-project/images/movies/movieTurkish2.jpg");
 }
 
 .t-movie3 {
-    background: url("/images/movies/movieTurkish3.jpg");
+    background: url("/damovie-project/images/movies/movieTurkish3.jpg");
 }
 
 .t-movie4 {
-    background: url("/images/movies/movieTurkish4.jpg");
+    background: url("/damovie-project/images/movies/movieTurkish4.jpg");
 }
 /* Movies page Action Movies 
 --------------------------------*/
 .a-movie1 {
-    background: url("/images/movies/actionMovie1.avif");
+    background: url("/damovie-project/images/movies/actionMovie1.avif");
 }
 .a-movie2 {
-    background: url("/images/movies/actionMovie2.avif");
+    background: url("/damovie-project/images/movies/actionMovie2.avif");
 }
 .a-movie3 {
-    background: url("/images/movies/actionMovie3.avif");
+    background: url("/damovie-project/images/movies/actionMovie3.avif");
 }
 .a-movie4 {
-    background: url("/images/movies/actionMovie4.jpeg");
+    background: url("/damovie-project/images/movies/actionMovie4.jpeg");
 }
 
 
@@ -237,98 +237,98 @@ h2>span {
 /* Movies page Horror Movies
 ---------------------------------- */
 .h-movie1 {
-    background: url("/images/movies/horrorMovie1.jpg");
+    background: url("/damovie-project/images/movies/horrorMovie1.jpg");
 }
 .h-movie2 {
-    background: url("/images/movies/horrorMovie2.jpg");
+    background: url("/damovie-project/images/movies/horrorMovie2.jpg");
 }
 .h-movie3 {
-    background: url("/images/movies/horrorMovie3.webp");
+    background: url("/damovie-project/images/movies/horrorMovie3.webp");
 }
 .h-movie4 {
-    background: url("/images/movies/horrorMovie4.jpg");
+    background: url("/damovie-project/images/movies/horrorMovie4.jpg");
 }
 /* Series page Crime Series
 ----------------------------------------- */
 .c-series1 {
-    background: url("/images/series/crimeSeries1.jpg");
+    background: url("/damovie-project/images/series/crimeSeries1.jpg");
 }
 .c-series2 {
-    background: url("/images/series/crimeSeries2.jpg");
+    background: url("/damovie-project/images/series/crimeSeries2.jpg");
 }
 .c-series3 {
-    background: url("/images/series/crimeSeries3.jpg");
+    background: url("/damovie-project/images/series/crimeSeries3.jpg");
 }
 .c-series4 {
-    background: url("/images/series/crimeSeries4.jpg");
+    background: url("/damovie-project/images/series/crimeSeries4.jpg");
 }
 .co-series1 {
-    background: url("/images/series/comedySeries1.jpg");
+    background: url("/damovie-project/images/series/comedySeries1.jpg");
 }
 .co-series2 {
-    background: url("/images/series/comedySeries2.jpg");
+    background: url("/damovie-project/images/series/comedySeries2.jpg");
 }
 .co-series3 {
-    background: url("/images/series/comedySeries3.jpg");
+    background: url("/damovie-project/images/series/comedySeries3.jpg");
 }
 .co-series4 {
-    background: url("/images/series/comedySeries4.jpg");
+    background: url("/damovie-project/images/series/comedySeries4.jpg");
 }
 .a-series1 {
-    background: url("/images/series/advantureSeries1.jpg");
+    background: url("/damovie-project/images/series/advantureSeries1.jpg");
 }
 .a-series2 {
-    background: url("/images/series/advantureSeries2.jpg");
+    background: url("/damovie-project/images/series/advantureSeries2.jpg");
 }
 .a-series3 {
-    background: url("/images/series/advantureSeries3.jpg");
+    background: url("/damovie-project/images/series/advantureSeries3.jpg");
 }
 .a-series4 {
-    background: url("/images/series/advantureSeries4.jpg");
+    background: url("/damovie-project/images/series/advantureSeries4.jpg");
 }
 /* Anime Page Top animes 
 -------------------------------------- */
 .t-anime1 {
-    background: url("/images/animies/anime1.jpeg");
+    background: url("/damovie-project/images/animies/anime1.jpeg");
 }
 .t-anime2 {
-    background: url("/images/animies/anime2.jpg");
+    background: url("/damovie-project/images/animies/anime2.jpg");
 }
 .t-anime3 {
-    background: url("/images/animies/anime3.jpeg");
+    background: url("/damovie-project/images/animies/anime3.jpeg");
 }
 .t-anime4 {
-    background: url("/images/animies/anime4.jpeg");
+    background: url("/damovie-project/images/animies/anime4.jpeg");
 }
 
 /* Anime Page latest animes 
 -------------------------------------- */
 .l-anime1 {
-    background: url("/images/animies/Makeine.jpg");
+    background: url("/damovie-project/images/animies/Makeine.jpg");
 }
 .l-anime2 {
-    background: url("/images/animies/MAYONAKA\ PUNCH.jpg");
+    background: url("/damovie-project/images/animies/MAYONAKA\ PUNCH.jpg");
 }
 .l-anime3 {
-    background: url("/images/animies/Oshi\ no\ ko.jpg");
+    background: url("/damovie-project/images/animies/Oshi\ no\ ko.jpg");
 }
 .l-anime4 {
-    background: url("/images/animies/Shoshimin.jpg");
+    background: url("/damovie-project/images/animies/Shoshimin.jpg");
 }
 
 /* Anime Page most popular animes 
 -------------------------------------- */
 .m-anime1 {
-    background: url("/images/animies/Attack\ on\ Titan.jpg");
+    background: url("/damovie-project/images/animies/Attack\ on\ Titan.jpg");
 }
 .m-anime2 {
-    background: url("/images/animies/Death\ Note.jpg");
+    background: url("/damovie-project/images/animies/Death\ Note.jpg");
 }
 .m-anime3 {
-    background: url("/images/animies/anime1.jpeg");
+    background: url("/damovie-project/images/animies/anime1.jpeg");
 }
 .m-anime4 {
-    background: url("/images/animies/anime3.jpeg");
+    background: url("/damovie-project/images/animies/anime3.jpeg");
 }
 
 
