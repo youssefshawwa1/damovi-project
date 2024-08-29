@@ -541,6 +541,22 @@ footer {
     .explore-content p {
         font-size: 0.8rem;
     }
+    .content-container {
+        text-align: center;
+    }
+    .movie-detail-container {
+        flex-direction: column!important;
+        text-align: center;
+    }
+    .movie-detail-container .movie-container {
+        margin: auto!important;
+    }
+    .detail {
+        text-align: center;
+    }
+    .select-movie-dropdown {
+        margin: auto;
+    }
 }
 
 
@@ -577,7 +593,7 @@ h3:hover{
 .movie-item:hover > .movie-detail a{
 width: 75%;
 height: 100%;
-font-size: 1rem;
+font-size: .8rem;
 
 }
 .movie-item:hover > .movie-detail a{
@@ -625,13 +641,93 @@ font-size: 1rem;
 
 /* Content page
 -------------------------------------------- */
-.content-section {
-display: flex;
-justify-content: space-evenly;
+.content-container h2{
+    font-size: 1.3rem;
 }
-.content-section aside {
+.content-container {
+    justify-content: center;
+}
+.embed-responsive {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .embed-responsive-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .content-container {
+    margin: auto 1.5rem;
+  }
+.popular-animes-container {
+    width: 100%;
     margin: 0;
-    display: block;
-    padding: 0;
+    justify-content: space-around;
+}
+.content-container .movie-container {
+    margin: 0;
+}
+.content-container .movie {
+    width: 100%!important;
+    height: 80%;
+
+}
+.content-container {
+    width: 90vw;
+    margin: auto;
 }
 
+.content-container .movie-detail {
+    font-size: 0.5rem!important;
+}
+
+
+.movie-detail-container {
+    display: flex; 
+    flex-direction: row;
+}
+.movie-detail-container ul {
+    list-style: none;
+
+}
+.detail {
+    margin: 15px 0 0 0 ;
+}
+.detail ul li:nth-of-type(1n){
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-style: bold;
+}
+.detail ul li:nth-of-type(2n) {
+    font-weight: 150;
+}
+.movie-detail-container .movie::after {
+ display: none;
+    
+}
+.popular-animes-container .movie-container {
+    min-width: 175px;
+}
+
+
+
+.navbar-collapse form {
+    min-width: 30vw;
+}
+.select-movie-dropdown {
+    width: 300px;
+    text-align: center;
+}
+.select-movie-dropdown * {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
